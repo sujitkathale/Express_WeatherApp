@@ -1,0 +1,22 @@
+{
+  "name": "express_weatherapp",
+  "version": "1.0.0",
+  "description": "Node App with EJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node App.js",
+    "dev": "nodemon App.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "EJS"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
